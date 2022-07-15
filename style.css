@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+
+.header {
+    background-image: linear-gradient(45deg, black, transparent), url(images/header1.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+a.button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #EF233C;
+    color: white;
+    border-radius: 5px;
+}
